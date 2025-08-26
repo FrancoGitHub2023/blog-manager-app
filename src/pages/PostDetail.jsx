@@ -1,4 +1,4 @@
-// src/pages/PostDetail.jsx
+
 import { useState, useEffect } from 'react';
 import { useParams, useNavigate, Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
@@ -390,3 +390,4 @@ const PostDetail = () => {
 };
 
 export default PostDetail;
+
