@@ -1,7 +1,6 @@
-// src/store/slices/authSlice.js
 import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
 
-// Utenti di test per la simulazione
+// Utenti test per la simulazione
 const TEST_USERS = [
     {
         id: 1,
@@ -156,5 +155,6 @@ export const selectIsAuthenticated = (state) => state.auth.isAuthenticated;
 export const selectIsAdmin = (state) => state.auth.user?.role === 'admin';
 export const selectAuthLoading = (state) => state.auth.isLoading;
 export const selectAuthError = (state) => state.auth.error;
+
 
 export default authSlice.reducer;
