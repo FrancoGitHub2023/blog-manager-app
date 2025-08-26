@@ -1,4 +1,3 @@
-// src/components/common/ProtectedRoute.jsx
 import { useSelector } from 'react-redux';
 import { Navigate, useLocation } from 'react-router-dom';
 import { selectIsAuthenticated, selectIsAdmin } from '../../store/slices/authSlice';
@@ -58,4 +57,5 @@ export const PublicRoute = ({ children }) => {
 };
 
 // Export default per compatibilità
+
 export default ProtectedRoute;
