@@ -1,4 +1,3 @@
-// src/store/index.js
 import { configureStore } from '@reduxjs/toolkit';
 import authSlice from './slices/authSlice';
 import postsSlice from './slices/postsSlice';
@@ -19,5 +18,6 @@ export const store = configureStore({
     // Abilita Redux DevTools in sviluppo
     devTools: process.env.NODE_ENV !== 'production',
 });
+
 
 console.log('🏪 Redux Store configurato correttamente!');
