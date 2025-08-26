@@ -1,4 +1,3 @@
-// src/components/common/Header.jsx
 import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { selectIsAuthenticated, selectUser, logoutUser } from '../../store/slices/authSlice';
@@ -76,5 +75,6 @@ const Header = () => {
         </header>
     );
 };
+
 
 export default Header;
