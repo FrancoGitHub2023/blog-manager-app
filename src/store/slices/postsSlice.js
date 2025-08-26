@@ -1,4 +1,3 @@
-// src/store/slices/postsSlice.js
 import { createSlice, createAsyncThunk, createSelector } from '@reduxjs/toolkit';
 import axios from 'axios';
 
@@ -259,5 +258,6 @@ export const selectPostsPagination = createSelector(
         total
     })
 );
+
 
 export default postsSlice.reducer;
