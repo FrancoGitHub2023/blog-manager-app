@@ -1,6 +1,6 @@
 # 📝 Blog Manager App
 
-Una moderna applicazione di gestione blog sviluppata con React.js che dimostra competenze avanzate in state management, routing, e integrazione API.
+Un'applicazione didattica di base per la gestione di un blog, sviluppata con React.js. Lo scopo è dimostrare competenze in state management, routing, e integrazione API.
 
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
@@ -9,7 +9,7 @@ Una moderna applicazione di gestione blog sviluppata con React.js che dimostra c
 
 ## 🎯 Panoramica del Progetto
 
-Blog Manager è un'applicazione web completa che permette la gestione di articoli di blog con sistema di autenticazione, ruoli utente differenziati e operazioni CRUD complete. L'applicazione dimostra l'implementazione di pattern moderni di sviluppo React e best practices per applicazioni scalabili.
+Blog Manager è un'applicazione web che permette la gestione di articoli di blog con sistema di autenticazione, ruoli utente differenziati e operazioni CRUD complete. L'applicazione dimostra l'implementazione di pattern moderni di sviluppo React e best practices per applicazioni scalabili.
 
 ### ✨ Caratteristiche Principali
 
