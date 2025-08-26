@@ -1,4 +1,3 @@
-// src/services/api.js
 import axios from 'axios';
 
 // Configurazione base di Axios
@@ -146,5 +145,6 @@ export const checkApiHealth = async () => {
         return false;
     }
 };
+
 
 export default api;
